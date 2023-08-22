@@ -1,0 +1,45 @@
+ /* HEADER */
+  
+ .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--primary-midnight);
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;  
+  }
+  
+  .navbar {
+  display: block;
+  margin-right: auto;
+  margin-left: 8rem;
+  }
+  .navbar__list {
+  display: flex;
+  align-items: center;
+  }
+  .navbar__item:not(:last-child){
+    margin-right: 4rem;
+  }
+  .navbar__item--link {
+    color: var(--primary-white) ;
+  }
+  .navbar__item--link:hover{
+  color: var(--primary-light);
+  }
+  .site-btn {
+    border-radius: 2.4rem;
+    padding: 0.9rem 3.3rem;
+  }
+  .header-btn {
+    border: 2px solid var(--primary-white);
+    color: var(--primary-white);
+  }
+  .header-btn:hover{
+    background-color: var(--primary-white);
+    color: var(--secondary-sacramento-green);
+  }

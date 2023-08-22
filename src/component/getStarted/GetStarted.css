@@ -1,0 +1,33 @@
+ /* STARTED-STYLE */
+  
+ .started {
+    height: 20rem;
+    background-image:url(../../assets/started-bg-left.svg);
+    background-repeat:no-repeat;
+    background-position: left bottom;
+    background-color: var(--primary-light);
+  }
+  .started-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8rem;
+  }
+  .started-tittle {
+  font-weight: var(--main-font-weight);
+  font-size: var(--h2-font-size);
+  line-height: var(--h1-large-line);
+  color: var(--secondary-sacramento-green);
+  }
+  .started-btn {
+    border: 2px solid transparent;
+    color: var(--secondary-sacramento-green);
+  }
+  .started-btn:hover{
+    background-color: var(--primary-white);
+    border: 2px solid var(--primary-white);
+  }
+  .started-btn{
+    border: 2px solid var(--secondary-sacramento-green);
+    border-radius: 2.4rem;
+  }
